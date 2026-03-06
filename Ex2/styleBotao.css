@@ -1,0 +1,37 @@
+/* CSS para ser vínculado na página da atividade */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+}
+
+.dropText {
+    display: none;
+    position: absolute;
+    background-color: rgb(125, 120, 215);
+    min-width: 120px;
+}
+
+.dropText span {
+    padding: 12px 25px;
+    display: block;
+}
+
+.dropText span img {
+    margin-right: 10px;
+}
+
+.dropText span:hover {
+    background-color: rgb(148, 145, 213);
+}
+
+.dropdown:hover .dropText {
+    display: block;
+}
+
+.espaco 
+{
+    
+    height: 40%;
+}
