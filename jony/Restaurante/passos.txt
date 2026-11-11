@@ -1,0 +1,20 @@
+Passo a passo para inserir
+
+
+1- Adicionar os campos no formulário
+   - Input text para o nome da comida ✅
+   - Select para o tipo da comida (buscar as options na tabela tipos)
+   - Select para a intensidade da comida (buscar as options na tabela intensidades)
+   - Botão para submetê-lo
+
+
+2- Na página inserir.php, é preciso pegar os valores do formulário pela superglobal $_POST
+    2.1 - Criar o objeto Comida, setando seus atributos
+    2.2 - Chamar o método para inserir do ComidaController
+
+3- No ComidaController: criar o método para inserir
+    3.1- Validar os dados chamando o ComidaService
+    3.2- Chamar o ComidaDAO para inserir a comida no banco de dados
+
+4- Redirecionar para a páginas listar.php
+
